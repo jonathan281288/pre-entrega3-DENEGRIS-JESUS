@@ -68,6 +68,21 @@
   width: 100%;
 }
 
+.card-imgtel {
+  padding: 10px;
+  margin: 20px;
+  border-style: solid;
+  text-align: center;
+  width: 18rem;
+  color: black;
+}
+
+.card-imgtel img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 footer {
   background-color: black;
 }
