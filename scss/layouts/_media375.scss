@@ -1,0 +1,36 @@
+@media only screen and (min-width: 375px) and (max-width: 480px){
+    // HEADER INDEX
+    .titulo-logo {
+        justify-content: center;
+        height: 40px;
+    }
+    .titulo-logo h1 {
+        display: none;
+        
+    }
+    // MAIN INDEX
+    .h2-index{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    // FOOTER INDEX
+    .iconos-redes{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+    }
+    // MEDIA DE LA PAGINA SERVICE
+    .main-service h2{
+        background-color: rgb(38, 25, 222);
+        color: rgb(235, 209, 8);
+    }
+
+}
+
