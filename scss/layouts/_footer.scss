@@ -7,9 +7,6 @@ footer{
 }
 
 .iconos-redes{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    @include flex;
     color: white;
 }
